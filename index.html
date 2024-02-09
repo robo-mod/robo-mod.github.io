@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta id="meta-desc" name="description"
+    content="Web home for the Workshop on Modalities for Scaling Real-World Data Collection @ RSS2024">
+  <meta id="meta-author" name="author" content="Krishan Rana">
+  <title id="title"></title>
+
+  <link href="./assets/css/fonts.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./assets/css/academic.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="icon" href="#">
+
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body pad-zero">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 id="conference-details"></h1>
+            <h1 id="project-name" class="title is-1 publication-title"></h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <h1 id="conference-details"></h1>
+                <h1 id="workshop-date" class="is-4"></h1>
+              </span>
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <!-- Contact Link. -->
+
+
+                <!-- Zoom Link. -->
+                <!-- span class="link-block">
+                  <a href="" class="external-link button is-normal is-rounded is-primary" style="box-shadow: 0px 0px 5px 0px lightgrey">
+                    <span class="icon">
+                      <i class="fa fa-video"></i>
+                    </span>
+                    <span>Join Online</span>
+                  </a>
+                </span>
+                <br-->
+
+                <!-- Recording. -->
+                <!-- <span class="link-block">
+                  <a href="https://www.youtube.com/playlist?list=PL1A3o7iF8HvI33TkcU3-Z_gU0gs7f0Lhj" class="external-link button is-normal is-rounded is-primary" style="box-shadow: 0px 0px 5px 0px lightgrey">
+                    <span class="icon">
+                      <i class="fa fa-video"></i>
+                    </span>
+                    <span>Recordings</span>
+                  </a>
+                </span>
+                <br> -->
+                
+                <!-- Speakers. -->
+                <span class="link-block">
+                  <a href="#speakers" class="external-link button is-normal  is-danger" style="background-color: #DF6883; color: #000000;">
+                    <span class="icon">
+                      <i class="fas fa-users icon"></i>
+                    </span>
+                    <span>Speakers</span>
+                  </a>
+                </span>
+
+                <!-- Organizers. -->
+                <span class="link-block">
+                  <a href="#organizers" class="external-link button is-normal  is-warning" style="background-color: #9b90d1; color: #000000;"">
+                    <span class="icon">
+                      <i class="fas fa-users icon"></i>
+                    </span>
+                    <span>Organizers</span>
+                  </a>
+                </span>
+
+                <!-- Schedule Link. -->
+                <span class="link-block">
+                  <a href="#schedule" class="external-link button is-normal  is-info" style="background-color: #58EEB7; color: #000000;"">
+                    <span class="icon">
+                      <i class="far fa-calendar-alt icon"></i>
+                    </span>
+                    <span>Schedule</span>
+                  </a>
+                </span>
+
+                <!-- Contact Link. -->
+                <span class="link-block">
+                  <a href="#contact" class="external-link button is-normal is-success" style="background-color: #fcf456; color: #000000;">
+                    <span class="icon">
+                      <i class="fas fa-address-book icon"></i>
+                    </span>
+                    <span>Contact</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Overview. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Overview</h2>
+          <div class="content has-text-justified">
+            <p>
+              While we have seen tremendous growth in large foundation models that have exhibited impressive scaling properties and emergent capabilities, we have yet to see such transformative improvements in robot learning. The current explosion in capable foundation models like GPT and CLIP has been driven in part by scaling large datasets. We are faced with several challenges: <b>(1)</b> Due to the high cost of collecting robot data, it is challenging to collect a sufficiently large robot dataset, <b>(2)</b> existing robot data is not conducive to current learning paradigms, and <b>(3)</b> there has been inadequate attention placed on elegantly integrating meta-data, which arise during data collection, into the training process.
+          </br>
+          </br>
+              This workshop advocates to search for novel modalities for scalable data collection beyond commonly utilized methodologies today, which center on teleoperated first-person robot demonstrations. The inaugural Workshop on Modalities for Scaling Real-world Data Collection aims to bring together an interdisciplinary cohort of robotics researchers and practitioners  to brainstorm creative or unconventional modalities for robot learning.
+          </br>
+          </br>
+              Topics of interest  include:
+            <ul>
+              <li>
+                Scalable data collection strategies formats like play or reset-free data collection
+              </li>
+              <li>
+                Teleoperation / kinesthetic teaching / puppeteering
+              </li>
+              <li>
+                Intervention / preference / human feedback
+              </li>
+              <li>
+                Synthetic non-simulated data 
+              </li>
+              <li>
+                Non-robot data (human first-person and third-person videos)
+              </li>
+              <li>
+                Cross-embodiment data              </li>
+              <li>
+                Scaling laws of robot data for quantity, quality, and utility
+              </li>
+              <li>
+                Human-centric interfaces like sketches, speech, or gestures
+              </li>
+              <li>
+                Hardware tools for low-cost wrist-mounted EEF data collection
+              </li>
+              <li>
+                Hand tracking or smartphone based teleoperation
+              </li>
+              <li>
+                Extracting more useful information from offline datasets (semantics, motion, goals)
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Overview. -->
+
+      <div class="columns is-centered">
+      <span class="link-block">
+        <a href="./call-for-presentations" class="external-link button is-normal is-large is-primary" style="box-shadow: 0px 0px 5px 0px lightgrey; background-color: #4a90e2;">
+          <span class="icon">
+            <i class="fas fa-newspaper"></i>
+          </span>
+          <span>Call-for-Presentations</span>
+        </a>
+      </span>
+    </div>
+  </div>
+
+
+  </section>
+
+
+  <section id="speakers" class="section">
+    <!-- Speakers. -->
+    <div class="container is-max-desktop">
+      <h2 class="center title is-3">Confirmed Speakers</h2>
+      <div id="talk-content1" class="columns is-centered"></div>
+      <div id="talk-content2" class="columns is-centered"></div>
+      <!--/ Speakers. -->
+  </section>
+
+  <section id="accepted-presentations" class="section">
+    <div class="container is-max-desktop">
+      <!-- Accepted Presentations. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Accepted Presentations</h2>
+          <span class="has-text-success bold">If you are interested in presenting your work, please check out the <a class="has-text-info" href="./call-for-presentations/" target="_blank" rel="noopener noreferrer">Call for Presentations</a> page.</span>
+          <!-- Coming soon. Thanks for your patience. -->
+          <!-- <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i> Spotlight and poster presenter details will be updated after acceptance notification is sent.<br>For reference, a sample list is depicted below.</div><br> -->
+          <div id="ppt-list" class="content has-text-justified"></div>
+      </div>
+    </div>
+    <!--/ Accepted Presentations. -->
+    </div>
+  </section>
+
+  <section id="organizers" class="section">
+    <!-- Organizers. -->
+    <div class="container is-max-desktop">
+      <h2 class="center title is-3">Organizers</h2>
+      <div id="organizer-content-1" class="columns is-centered"></div>
+      <div id="organizer-content-2" class="columns is-centered"></div>
+      <div id="organizer-affiliation-logo-content" class="columns is-centered"></div>
+      <!--/ Organizers. -->
+  </section>
+
+  <section id="schedule" class="section">
+    <div class="container is-max-desktop">
+      <!-- Schedule. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <!-- <h2 class="title is-3">Tentative Schedule</h2> -->
+          <h2 class="title is-3">Schedule</h2>
+          <div class="content center has-text-justified">
+            <!-- Coming soon. Thanks for your patience. -->
+            <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Specific details will be coming soon. Thanks for your patience.</div><br>
+            <div class="table-container">
+              <table id="schedule-table" class="table">
+                <tbody id="schedule-table-body">
+              </table>
+            </div>
+          </div>
+        </div>
+        <!--/ Schedule. -->
+      </div>
+  </section>
+
+
+  <section id="schedule" class="section">
+    <div class="container is-max-desktop">
+      <!-- Related Workshop -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Related Workshops</h2>
+          <div class="content has-text-centered">
+              <a href="https://sites.google.com/view/rap4robots" target="_blank">Workshop on effective Representations, Abstractions, and Priors for Robot Learning (RAP4Robots)</a><br><br>
+
+              <a href="https://usr2023.github.io/" target="_blank">Workshop on Unconventional Spatial Representations (USR)</a><br><br>
+
+              <a href="https://sites.google.com/corp/view/ldod2023/home" target="_blank">Workshop on Learning from Diverse Offline Data (LDOD)</a><br><br>
+
+              <a href="https://sites.google.com/corp/view/rss22-srl/home" target="_blank">Workshop on Scaling Robot Learning (SRL)</a><br><br>
+
+              <a href="https://gjstein.github.io/corl2022wkshp-long-horizon-planning/" target="_blank">Workshop on Workshop on Learning, Perception, and Abstraction for Long-Horizon Planning (SRL)</a><br><br>
+
+    
+          </div>
+      </div>
+    </div>
+        <!--/ Related Workshop. -->
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container is-max-desktop">
+      <!-- Contact. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Contact</h2>
+          <div class="content center has-text-justified">
+            Please feel free to send us your queries via email at <a
+              href="mailto:robot.modalities@gmail.com">robot.modalities@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <!--/ Contact. -->
+    </div>
+  </section>
+
+</body>
+<script src="./assets/js/jquery.min.js"></script>
+<script defer src="./assets/js/fontawesome.all.min.js"></script>
+<script src="./assets/js/bulma-carousel.min.js"></script>
+<script src="./assets/js/bulma-slider.min.js"></script>
+<script src="./assets/js/config.js"></script>
+<script src="./assets/js/index.js"></script>
+
+</html>
