@@ -10,6 +10,7 @@ const talk_speaker_details = {
   'rc': ['Roberto Calandra', './assets/images/talks/roberto.png', 'Professor', 'TU Dresden', 'https://lasr.org/', '', ""],
   'rl': ['Rudolf Lioutikov', './assets/images/talks/rudolf.jpeg', 'Professor', 'Karlsruhe Institute of Technology', 'https://rudolf.intuitive-robots.net/', '', ""],
   'ej': ['Eric Jang', './assets/images/talks/eric.png', 'Vice President of AI', '1X Technologies', 'https://evjang.com/about/', '', ""],
+  'ji': ['Julian Ibarz', './assets/images/talks/julian.jpg', 'Senior Staff Software Engineer', 'Tesla', 'https://scholar.google.com/citations?user=l-la0GQAAAAJ&hl=en', '', ""],
   'rt': ['Russ Tedrake', './assets/images/talks/russ.jpg', 'Vice President of Robotics', 'Toyota Research Institute', 'https://www.tri.global/about-us/dr-russ-tedrake/', '', ""],
 
 }
@@ -23,6 +24,7 @@ const organizers_details = [
   ['Krishan Rana', './assets/images/organizers/krishan.jpg', 'Postdoctoral Researcher', 'QUT Centre for Robotics', 'https://krishanrana.github.io/'],
   ['Kenny Shaw', './assets/images/organizers/kenny.jpeg', 'PhD Researcher', 'CMU', 'https://kennyshaw.net/'],
   ['Oier Mees', './assets/images/organizers/oier.jpeg', 'Postdoctoral Researcher', 'UC Berkeley', 'https://www.oiermees.com/'],
+  ['Jiayuan Gu', './assets/images/organizers/gu.jpg', 'PhD Researcher', 'UC San Diego', 'https://jiayuan-gu.github.io/'],
   ['Chris Paxton', './assets/images/organizers/chris-paxton.jpeg', 'Research Scientist', 'Meta AI', 'https://cpaxton.github.io/about/'],
   ['Shuran Song', './assets/images/organizers/shuran_song.jpg', 'Assistant Professor', 'Stanford', 'https://shurans.github.io/'],
 ]
@@ -49,22 +51,23 @@ const org_affiliation_logos = [
   'assets/images/affiliation-logos/utd-logo.png',
 ]
 
-
-
 // event-alias, time slot, event name, person alias from talk_speaker_details, ppt mode
 // last two are for inv-talk event-alias entries
 const schedule = [
   ['intro', '08:45 - 09:00', 'Introduction'],
   ['inv-talk', '09:00 - 09:30', 'Invited Talk', 'lp', 'in-person'],
   ['spot-ppt', '09:30 - 10:30', 'Spotlight Presentations'],
-  ['coffee-break', '10:30 - 11:30', '<span class="bold has-text-info">Spotlight Posters</span> & Coffee Break'],
-  ['inv-talk', '11:30 - 12:00', 'Invited Talk', 'cf', 'online'],
-  ['inv-talk', '12:00 - 12:30', 'Invited Talk',  'gc', 'in-person'],
-  ['lunch-break', '12:30 - 14:00', 'Lunch Break'],
-  ['inv-talk', '14:00 - 14:30', 'Invited Talk', 'rc', 'in-person'],
-  ['spot-ppt', '14:30 - 15:30', 'Spotlight presentations'],
-  ['coffee-break', '15:30 - 16:00', 'Coffee Break'],
-  ['inv-talk', '16:00 - 16:30', 'Invited Talk', 'rl', 'in-person'],
-  // ['inv-talk', '16:30 - 17:00', 'Invited Talk', 'tba', 'in-person'],
+  ['coffee-break', '10:30 - 11:00', '<span class="bold has-text-info">Posters Session</span> & Coffee Break'],
+  ['inv-talk', '11:00 - 11:30', 'Invited Talk', 'cf', 'online'],
+  ['inv-talk', '11:30 - 12:00', 'Invited Talk',  'gc', 'in-person'],
+  ['spot-ppt', '12:00 - 12:30', 'Panel 1'],
+  ['lunch-break', '12:30 - 13:30', 'Lunch Break'],
+  ['inv-talk', '13:30 - 14:00', 'Invited Talk', 'rl', 'in-person'],
+  ['inv-talk', '14:00 - 14:30', 'Invited Talk', 'ej', 'in-person'],
+  ['inv-talk', '14:30 - 15:00', 'Invited Talk', 'rc', 'in-person'],
+  ['coffee-break', '15:00 - 15:30', '<span class="bold has-text-info">Posters Session</span> & Coffee Break'],
+  ['inv-talk', '15:30 - 16:00', 'Invited Talk', 'ji', 'in-person'],
+  ['inv-talk', '16:00 - 16:30', 'Invited Talk', 'rt', 'in-person'],
+  ['spot-ppt', '16:30 - 17:00', 'Panel 2'],
   ['disc', '17:00 - 17:05', 'Conclusion'], 
 ]
